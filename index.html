@@ -54,7 +54,8 @@
                 opacity: 0.2;
             }
 
-            .parallax {
+    #card_background
+             {
                 background-image: url(img/tower.jpg);
             }
 
@@ -120,7 +121,7 @@
         <div class="navbar-fixed ">
         <nav class="nav-wrapper #1a237e indigo darken-4">
             <div class="container">
-                    <a href="#" class="brand-logo">Land</a>
+                    <a href="#" class="brand-logo">L<span id="sp">and</span></a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a class="white-text text-darken-4" href="#">Home</a> </li>
@@ -244,8 +245,8 @@
 <!--parallax-->
 
 <section class="section scrollspy">
-    <div class="parallax-container">
-        <div class="parallax">
+    <div id="card_background">
+        <!-- <div class="parallax"> -->
             <!-- <img id="para" src="img/tower.jpg" class="responsive-img"/> -->
             <div class="container center-align">
                 <h3 id="par" class="white-text"><b>We Provide The <span id="sp">Best Services</b></span></h3>
@@ -289,7 +290,7 @@
                       </div>
                     </div>
                   </div>
-            </div>
+        <!-- </div> -->
     </div> <br/>
 </section>
 
@@ -305,27 +306,11 @@
 
         <div class="row" id="places">
 
-            <div class="col s12 m6 l3" id="canada">
-                
-                <h4><b>Place 1</b></h4>
-                <h6><b>Canada</b></h6>
-        
-            </div>
-    
-            <div class="col s12 m6 l3 white-text " id="uk">
-                <h4><b>Place 2</b></h4>
-                <h6><b>UK</b></h6>
-            </div>
-    
-            <div class="col s12 m6 l3 white-text" id="paris">
-                <h4><b>Place 3</b></h4>
-                <h6><b>Paris</b></h6>
-            </div>
-    
-            <div class="col s12 m6 l3" id="usa">
-                <h4><b>PLace 4</b></h4>
-                <h6><b>USA</b></h6>
-            </div>
+                <div class="col s12 m6 l3"><p id="canada">Place 1 <br/> Canada</p></div>
+                <div class="col s12 m6 l3"><p id="uk">Place 2 <br/> United Kingdom</p></div>
+                <div class="col s12 m6 l3"><p id="paris" class="white-text">Place 3 <br/> Paris</p> </div>
+                <div class="col s12 m6 l3"><p id="usa">Place 4 <br/> USA</p></div>
+              </div>
         </div>
     
     </div>
