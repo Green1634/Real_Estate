@@ -41,6 +41,74 @@
             #find{
                 margin-top: 2rem;
             }
+
+            /* .parallax-container {
+            height: "800px";
+            } */
+
+            #sp {
+                color: #ff6b6b;
+            }
+
+            #para {
+                opacity: 0.2;
+            }
+
+            .parallax {
+                background-image: url(img/tower.jpg);
+            }
+
+            #par {
+                margin-top: 3rem;
+            }
+
+            #card {
+                padding-top: 3rem;
+            }
+
+            #canada{
+                background-image: url(img/canada.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 300px;
+                opacity: 0.9;
+                /* margin-right: 1.em; */
+                
+            }
+
+            #places{
+                margin-top: 2rem;
+            }
+
+            #uk{
+                background-image: url(img/uk.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 300px;
+                opacity: 0.9;
+                /* margin-right: 1em; */
+                
+            }
+
+            #usa{
+                background-image: url(img/usa.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 300px;
+                opacity: 0.9;
+                /* margin-right: 1em; */
+            }
+            #paris{
+                background-image: url(img/paris.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 300px;
+                opacity: 0.9;
+                /* margin-right: 1em; */
+            }
+
+
+
     </style>
    
 </head>
@@ -70,7 +138,7 @@
 
         <div class="container" id="landing">
             <div class="center-align white-text text-darken-4">
-                <h2>Search and Find Your Luxury Homes</h2>
+                <h2>Search and Find Your <span id="sp" class="#1a237e indigo darken-4">Luxury</span> Homes</h2>
                 <p><b>Property for sale & for rent around the world</b></p>
             </div>
 
@@ -154,7 +222,7 @@
 
     <section>
         <div class="container">
-            <div class="center align"><h3>Welcome to Our Land Site</h3></div>
+            <div class="center align"><h3>Welcome to Our <span id="sp"> Land Site</span></h3></div>
             <div class="row">
                 <div class="col s12 m6 l6">
                     <img src="img/help2.png" width="100%">
@@ -173,7 +241,134 @@
 
     </section>
 
+<!--parallax-->
 
+<section class="section scrollspy">
+    <div class="parallax-container">
+        <div class="parallax">
+            <!-- <img id="para" src="img/tower.jpg" class="responsive-img"/> -->
+            <div class="container center-align">
+                <h3 id="par" class="white-text"><b>We Provide The <span id="sp">Best Services</b></span></h3>
+                <h5 id="par_" class="white-text">Excepteur sint occaecat cupidatat</h5>
+            </div>
+
+            <div class="row container">
+                <div class="col s12 m4 l4">
+                  <div class="card">
+                    <div class="card-content">
+                     <Div class="center-align"><a class="btn-floating waves-effect waves-light red"><i class="material-icons center-align">home</i></a></Div> <br/>
+                    <span class="card-title center-align">Service 1</span> <br/>
+                       <p>Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p> <br/>
+                    <div class="card-action center-align">
+                          <a href="#">Read More</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card">
+                      <div class="card-content">
+                       <Div class="center-align"><a class="btn-floating waves-effect waves-light red"><i class="material-icons center-align">dialpad</i></a></Div> <br/>
+                      <span class="card-title center-align">Service 2</span> <br/>
+                         <p>Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p> <br/>
+                      <div class="card-action center-align">
+                            <a href="#">Read More</a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col s12 m4 l4">
+                    <div class="card">
+                      <div class="card-content">
+                       <Div class="center-align"><a class="btn-floating waves-effect waves-light red"><i class="material-icons center-align">work</i></a></Div> <br/>
+                      <span class="card-title center-align">Service 3</span> <br/>
+                         <p>Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p> <br/>
+                      <div class="card-action center-align">
+                            <a href="#">Read More</a>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+    </div> <br/>
+</section>
+
+<!--pupular places-->
+<section>
+    <div class="container">
+        <div class="container center-align">
+            <h4 >Most Popular <span id="sp">Places</span></h4>
+            <h6>Excepteur sint occaecat cupidatat</h6>
+
+            
+        </div>
+
+        <div class="row" id="places">
+
+            <div class="col s12 m6 l3" id="canada">
+                
+                <h4><b>Place 1</b></h4>
+                <h6><b>Canada</b></h6>
+        
+            </div>
+    
+            <div class="col s12 m6 l3 white-text " id="uk">
+                <h4><b>Place 2</b></h4>
+                <h6><b>UK</b></h6>
+            </div>
+    
+            <div class="col s12 m6 l3 white-text" id="paris">
+                <h4><b>Place 3</b></h4>
+                <h6><b>Paris</b></h6>
+            </div>
+    
+            <div class="col s12 m6 l3" id="usa">
+                <h4><b>PLace 4</b></h4>
+                <h6><b>USA</b></h6>
+            </div>
+        </div>
+    
+    </div>
+
+</section>
+
+    <!--footer-->
+    <section id="foot" class="section scrollspy">
+        <footer class="page-footer #1a237e indigo darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col s6 m6 l6">
+                        <h5 class="white-text">Summary</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                        <p class="grey-text text-lighten-4">we discover ideas, understand the concept, and take these ideas to an extraordinary edge, where this ideas provide beautiful outcome, which is truly unexpected and beneficial in all the ways to our clients.</p>
+
+                    </div>
+                    <div class="col l4 offset-l2  m6 s12">
+                        <h5 class="white-text">About us</h5>
+                        <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Services</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Summary</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"></a></li> <br/>
+                        <div class="">
+                            <!-- <li><a class="waves-red waves-light btn social dropbox"><i class="fa fa-google"></i></a></li> -->
+                            <button class="btn btn-small facebook waves-light #01579b light-blue darken-4" data-provider="facebook"><i class="fab fa-facebook-f"></i></button>
+                            <button class="btn btn-small twitter #81d4fa light-blue lighten-3" data-provider="twitter"><i class="fab fa-twitter"></i></button>
+                            <!-- <button class="btn google #d84315 deep-orange darken-3" data-provider="google"><i class="fab fa-google"></i></button> -->
+                            <button class="btn btn-small instagram #ff4081 pink accent-2" data-provider="instagram"><i class="fab fa-instagram"></i></button>
+                            <button class="btn btn-small linkedin #2196f3 blue" data-provider="linkedin"><i class="fab fa-linkedin"></i></button> <br/>         
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="footer-copyright  black">
+                <p class="grey-text text-lighten-4 container center-align"> © 2020 designed by Green </p>
+            </div>
+        </footer>
+    </section>
+    <!--footer end-->
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -190,7 +385,12 @@ for (var i = 0; i < dropdowns.length; i++){
 
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('select');
-    var instances = M.FormSelect.init(elems, options);
+    var instances = M.FormSelect.init(elems, {});
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems, {});
   });
 
 </script>
