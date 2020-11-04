@@ -42,9 +42,14 @@
                 margin-top: 2rem;
             }
 
-            /* .parallax-container {
+            .parallax-container {
             height: "800px";
-            } */
+            /* background-image: url(img/tower.jpg); */
+            }
+
+            #sectionp{
+                background-image: url(img/tower.jpg);
+            }
 
             #sp {
                 color: #ff6b6b;
@@ -52,11 +57,6 @@
 
             #para {
                 opacity: 0.2;
-            }
-
-    #card_background
-             {
-                background-image: url(img/tower.jpg);
             }
 
             #par {
@@ -124,10 +124,10 @@
                     <a href="#" class="brand-logo">L<span id="sp">and</span></a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a class="white-text text-darken-4" href="#">Home</a> </li>
-                        <li><a class="white-text text-darken-4" href="#cards">Find a Property</a> </li>
+                        <li><a class="white-text text-darken-4" href="#header">Home</a> </li>
+                        <li><a class="white-text text-darken-4" href="#pages">Find a Property</a> </li>
                         <li><a class="dropdown-trigger white-text text-darken-4" href="#!" data-target="dropdown1">Pages<i class="material-icons right " id="drop">arrow_drop_down</i></a></li>
-                        <li><a class="white-text text-darken-4" href="#foot">Blog</a> </li>
+                        <li><a class="white-text text-darken-4" href="#about">Blog</a> </li>
                         <li><a class="white-text text-darken-4" href="#foot">Contact Us</a> </li>
                         
                         
@@ -205,23 +205,23 @@
 <!--Sidenave structure-->
         <ul class="sidenav" id="mobile-demo">
             <li><a href="index.html">Home</a> </li>
-            <li><a href="#cards">Find a Property</a> </li>
-            <li><a href="#para">Pages</a> </li>
-            <li><a href="#foot">Blog</a> </li>
+            <li><a href="#pages">Find a Property</a> </li>
+            <li><a href="#about">Pages</a> </li>
+            <li><a href="#sectionp">Blog</a> </li>
             <li><a href="#foot">Contact Us</a> </li>
         </ul>
 
 <!-- Dropdown Structure -->
     <ul id="dropdown1" class="dropdown-content">
-        <li><a  class="black-text" href="#!">About Us</a></li>
-        <li><a  class="black-text" href="#!">Services</a></li>
+        <li><a  class="black-text" href="#about">About Us</a></li>
+        <li><a  class="black-text" href="#sectionp">Services</a></li>
         <li class="divider"></li>
-        <li><a  class="black-text" href="#!">Gallery</a></li>
+        <li><a  class="black-text" href="#about">Gallery</a></li>
     </ul>
 
 <!--About us Section-->
 
-    <section>
+    <section id="about" class="section scrollspy">
         <div class="container">
             <div class="center align"><h3>Welcome to Our <span id="sp"> Land Site</span></h3></div>
             <div class="row">
@@ -244,58 +244,60 @@
 
 <!--parallax-->
 
-<section class="section scrollspy">
-    <div id="card_background">
-        <!-- <div class="parallax"> -->
+<section class="section scrollspy" id="sectionp">
+    <div id="parallax-container">
+        <div class="parallax">
             <!-- <img id="para" src="img/tower.jpg" class="responsive-img"/> -->
-            <div class="container center-align">
-                <h3 id="par" class="white-text"><b>We Provide The <span id="sp">Best Services</b></span></h3>
-                <h5 id="par_" class="white-text">Excepteur sint occaecat cupidatat</h5>
-            </div>
+            
+        </div>
+        <div class="container center-align">
+            <h3 id="par" class="white-text"><b>We Provide The <span id="sp">Best Services</b></span></h3>
+            <h5 id="par_" class="white-text">Excepteur sint occaecat cupidatat</h5>
+        </div>
 
-            <div class="row container">
-                <div class="col s12 m4 l4">
-                  <div class="card">
-                    <div class="card-content">
-                     <Div class="center-align"><a class="btn-floating waves-effect waves-light red"><i class="material-icons center-align">home</i></a></Div> <br/>
-                    <span class="card-title center-align">Service 1</span> <br/>
-                       <p>Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p> <br/>
-                    <div class="card-action center-align">
-                          <a href="#">Read More</a>
-                    </div>
-                    </div>
+        <div class="row container">
+            <div class="col s12 m4 l4">
+              <div class="card">
+                <div class="card-content">
+                 <Div class="center-align"><a class="btn-floating waves-effect waves-light red"><i class="material-icons center-align">home</i></a></Div> <br/>
+                <span class="card-title center-align">Service 1</span> <br/>
+                   <p>Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p> <br/>
+                <div class="card-action center-align">
+                      <a href="#">Read More</a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                  <div class="card-content">
+                   <Div class="center-align"><a class="btn-floating waves-effect waves-light red"><i class="material-icons center-align">dialpad</i></a></Div> <br/>
+                  <span class="card-title center-align">Service 2</span> <br/>
+                     <p>Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p> <br/>
+                  <div class="card-action center-align">
+                        <a href="#">Read More</a>
+                  </div>
                   </div>
                 </div>
-                <div class="col s12 m4 l4">
-                    <div class="card">
-                      <div class="card-content">
-                       <Div class="center-align"><a class="btn-floating waves-effect waves-light red"><i class="material-icons center-align">dialpad</i></a></Div> <br/>
-                      <span class="card-title center-align">Service 2</span> <br/>
-                         <p>Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p> <br/>
-                      <div class="card-action center-align">
-                            <a href="#">Read More</a>
-                      </div>
-                      </div>
-                    </div>
+              </div>
+              <div class="col s12 m4 l4">
+                <div class="card">
+                  <div class="card-content">
+                   <Div class="center-align"><a class="btn-floating waves-effect waves-light red"><i class="material-icons center-align">work</i></a></Div> <br/>
+                  <span class="card-title center-align">Service 3</span> <br/>
+                     <p>Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p> <br/>
+                  <div class="card-action center-align">
+                        <a href="#">Read More</a>
                   </div>
-                  <div class="col s12 m4 l4">
-                    <div class="card">
-                      <div class="card-content">
-                       <Div class="center-align"><a class="btn-floating waves-effect waves-light red"><i class="material-icons center-align">work</i></a></Div> <br/>
-                      <span class="card-title center-align">Service 3</span> <br/>
-                         <p>Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p> <br/>
-                      <div class="card-action center-align">
-                            <a href="#">Read More</a>
-                      </div>
-                      </div>
-                    </div>
                   </div>
-        <!-- </div> -->
+                </div>
+              </div>
+
     </div> <br/>
 </section>
 
 <!--pupular places-->
-<section>
+<section id="pages" class="section scrollspy">
     <div class="container">
         <div class="container center-align">
             <h4 >Most Popular <span id="sp">Places</span></h4>
